@@ -46,6 +46,10 @@ class Owner
     def walk_dogs
       Dog.all.map { |dog| dog.mood="happy" }  
     end 
+    
+    def feed_cats
+      Cat.all.map { |cats| cats="happy" }   
+    end 
       
     
 
