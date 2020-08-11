@@ -8,7 +8,7 @@ class Cat
       @name = name_arg 
       @owner = owner_arg
       @mood = "nervous"
-      self.all << self 
+      @@all << self 
     end 
     
     def self.all 
