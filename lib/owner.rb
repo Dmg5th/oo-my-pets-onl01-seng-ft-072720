@@ -8,7 +8,7 @@ class Owner
       @species="human"     
     end
     
-    def say species
+    def say_species
       puts "I am #{@species}."  
     end 
 
