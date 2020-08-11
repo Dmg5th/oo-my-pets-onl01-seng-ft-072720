@@ -1,9 +1,10 @@
 class Cat 
-  attr_accessor :name, :owner 
+    attr_accessor :name, :owner 
   
-  def initialize(name_arg,owner_arg)
+    def initialize(name_arg,owner_arg)
     @name = name_arg 
-    @owner = 
+    @owner = owner_arg
+    end 
   
   
   
