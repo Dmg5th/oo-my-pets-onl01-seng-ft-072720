@@ -50,6 +50,8 @@ class Owner
     def feed_cats
       Cat.all.map { |cats| cats.mood="happy" }   
     end 
+    
+    def sell_pets
       
     
 
