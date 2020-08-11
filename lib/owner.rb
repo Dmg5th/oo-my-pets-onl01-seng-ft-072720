@@ -1,9 +1,9 @@
 require 'pry'
 
 class Owner
-    attr_reader :name
+    attr_accessor :name, :species 
     
-    def initialize (name_arg, species)
+    def initialize (name_arg)
       @name=name_arg
       @species="human"     
     end
