@@ -53,7 +53,7 @@ class Owner
     
     def sell_pets
       pets = Dog.all + Cat.all 
-      pets.map { |pets| pets.mood="nervous" }
+      pets.map { |pets| pets.mood="nervous" pets.owner=nil }
     end 
       
     
