@@ -1,17 +1,12 @@
 require 'pry'
 
 class Owner
-  # code goes here
-
-  attr_reader :name
- 
-
-
-  def initialize (name_arg)
-    @name=name_arg
-  
-
-  end
+    attr_reader :name
+    
+    def initialize (name_arg)
+      @name=name_arg
+      @species = human     
+    end
 
 
 
