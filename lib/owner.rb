@@ -5,7 +5,7 @@ class Owner
     
     def initialize (name_arg)
       @name=name_arg
-      @species = "human"     
+      @species="human"     
     end
 
 
