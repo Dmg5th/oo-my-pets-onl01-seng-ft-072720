@@ -7,6 +7,10 @@ class Owner
       @name=name_arg
       @species="human"     
     end
+    
+    def say species
+      puts "I am #{@species}."  
+    end 
 
 
 
